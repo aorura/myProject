@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9,00"
+	Name="pango"
+	ProjectGUID="{2E0592B8-31D9-3AA5-87D2-118E447D9568}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="debug\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="debug\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;c:\Qt\4.8.6\include\QtCore&quot;,&quot;c:\Qt\4.8.6\include\QtGui&quot;,&quot;c:\Qt\4.8.6\include&quot;,&quot;.&quot;,&quot;c:\Qt\4.8.6\include\ActiveQt&quot;,&quot;debug&quot;,&quot;.&quot;,c:\Qt\4.8.6\mkspecs\win32-msvc2008"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				AssemblerListingLocation="debug\"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="debug\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Qt\4.8.6\lib\qtmaind.lib c:\Qt\4.8.6\lib\QtGuid4.lib c:\Qt\4.8.6\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="c:\Qt\4.8.6\lib"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\pango.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="release\"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="release\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;c:\Qt\4.8.6\include\QtCore&quot;,&quot;c:\Qt\4.8.6\include\QtGui&quot;,&quot;c:\Qt\4.8.6\include&quot;,&quot;.&quot;,&quot;c:\Qt\4.8.6\include\ActiveQt&quot;,&quot;release&quot;,&quot;.&quot;,c:\Qt\4.8.6\mkspecs\win32-msvc2008"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				AssemblerListingLocation="release\"
+				DebugInformationFormat="0"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="release\"
+				Optimization ="2"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Qt\4.8.6\lib\qtmain.lib c:\Qt\4.8.6\lib\QtGui4.lib c:\Qt\4.8.6\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="c:\Qt\4.8.6\lib"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="$(OutDir)\pango.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gobjectnotifyqueue.c" />
+			<File
+				RelativePath="TestPango\main.cpp" />
+			<File
+				RelativePath="TestPango\testpango.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="TestPango\include\cairo\cairo-deprecated.h" />
+			<File
+				RelativePath="TestPango\include\cairo\cairo-features.h" />
+			<File
+				RelativePath="TestPango\include\cairo\cairo-ft.h" />
+			<File
+				RelativePath="TestPango\include\cairo\cairo-gobject.h" />
+			<File
+				RelativePath="TestPango\include\cairo\cairo-pdf.h" />
+			<File
+				RelativePath="TestPango\include\cairo\cairo-ps.h" />
+			<File
+				RelativePath="TestPango\include\cairo\cairo-script-interpreter.h" />
+			<File
+				RelativePath="TestPango\include\cairo\cairo-svg.h" />
+			<File
+				RelativePath="TestPango\include\cairo\cairo-version.h" />
+			<File
+				RelativePath="TestPango\include\cairo\cairo-win32.h" />
+			<File
+				RelativePath="TestPango\include\cairo\cairo.h" />
+			<File
+				RelativePath="TestPango\include\fontconfig\fcfreetype.h" />
+			<File
+				RelativePath="TestPango\include\fontconfig\fcprivate.h" />
+			<File
+				RelativePath="TestPango\include\fontconfig\fontconfig.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\freetype.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\ft2build.h" />
+			<File
+				RelativePath="TestPango\include\ft2build.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftadvanc.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftbbox.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftbdf.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftbitmap.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftbzip2.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftcache.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftchapters.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftcid.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\config\ftconfig.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\fterrdef.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\fterrors.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftgasp.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftglyph.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftgxval.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftgzip.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\config\ftheader.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftimage.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftincrem.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftlcdfil.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftlist.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftlzw.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftmac.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftmm.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftmodapi.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftmoderr.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\config\ftmodule.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\config\ftoption.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftotval.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftoutln.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftpfr.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftrender.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftsizes.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftsnames.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\config\ftstdlib.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftstroke.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftsynth.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftsystem.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\fttrigon.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\fttypes.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftwinfnt.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ftxf86.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gaction.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gactiongroup.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\galloca.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gappinfo.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gapplication.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gapplicationcommandline.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\garray.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gasyncinitable.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gasyncqueue.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gasyncresult.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gatomic.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gbacktrace.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gbase64.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gbinding.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gbitlock.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gbookmarkfile.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gboxed.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gbufferedinputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gbufferedoutputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gcache.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gcancellable.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gcharsetconverter.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gchecksum.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gclosure.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gcompletion.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gcontenttype.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gconvert.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gconverter.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gconverterinputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gconverteroutputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gcredentials.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gdatainputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gdataoutputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gdataset.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gdate.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gdatetime.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gdbusaddress.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gdbusauthobserver.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gdbusconnection.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gdbuserror.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gdbusintrospection.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gdbusmessage.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gdbusmethodinvocation.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gdbusnameowning.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gdbusnamewatching.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gdbusproxy.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gdbusserver.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gdbusutils.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gdir.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gdrive.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gemblem.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gemblemedicon.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\genums.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gerror.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gfile.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gfileattribute.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gfileenumerator.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gfileicon.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gfileinfo.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gfileinputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gfileiostream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gfilemonitor.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gfilenamecompleter.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gfileoutputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gfileutils.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gfilterinputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gfilteroutputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\ghash.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\ghook.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\ghostutils.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gi18n-lib.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gi18n.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gicon.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\ginetaddress.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\ginetsocketaddress.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\ginitable.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\ginputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gio.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\giochannel.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gioenums.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gioenumtypes.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gioerror.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\giomodule.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gioscheduler.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\giostream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\giotypes.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gkeyfile.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib-object.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib.h" />
+			<File
+				RelativePath="TestPango\lib\glib-2.0\include\glibconfig.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\glist.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gloadableicon.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gmacros.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gmain.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gmappedfile.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gmarkup.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gmarshal.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gmem.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gmemoryinputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gmemoryoutputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gmessages.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gmodule.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gmount.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gmountoperation.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gnativevolumemonitor.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gnetworkaddress.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gnetworkservice.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gnode.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gobject.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\goption.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\goutputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gparam.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gparamspecs.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gpattern.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gpermission.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gpoll.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gpollableinputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gpollableoutputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gprimes.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gprintf.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gproxy.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gproxyaddress.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gproxyaddressenumerator.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gproxyresolver.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gqsort.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gquark.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gqueue.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\grand.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gregex.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\grel.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gresolver.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gscanner.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gseekable.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gsequence.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsettings.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsettingsbackend.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gshell.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gsignal.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsimpleaction.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsimpleactiongroup.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsimpleasyncresult.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsimplepermission.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gslice.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gslist.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsocket.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsocketaddress.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsocketaddressenumerator.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsocketclient.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsocketconnectable.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsocketconnection.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsocketcontrolmessage.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsocketlistener.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsocketservice.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gsourceclosure.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gspawn.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gsrvtarget.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gstdio.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gstrfuncs.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gstring.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gtcpconnection.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gtcpwrapperconnection.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gtestutils.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gthemedicon.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gthread.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gthreadedsocketservice.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gthreadpool.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gtimer.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gtimezone.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gtlsbackend.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gtlscertificate.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gtlsclientconnection.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gtlsconnection.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gtlsserverconnection.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gtree.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gtype.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gtypemodule.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gtypeplugin.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gtypes.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gunicode.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gurifuncs.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gutils.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gvalue.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gvaluearray.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gvaluecollector.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gobject\gvaluetypes.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gvariant.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gvarianttype.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gvfs.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gvolume.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gvolumemonitor.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\glib\gwin32.h" />
+			<File
+				RelativePath="TestPango\include\gio-win32-2.0\gio\gwin32inputstream.h" />
+			<File
+				RelativePath="TestPango\include\gio-win32-2.0\gio\gwin32outputstream.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gzlibcompressor.h" />
+			<File
+				RelativePath="TestPango\include\glib-2.0\gio\gzlibdecompressor.h" />
+			<File
+				RelativePath="TestPango\include\iconv.h" />
+			<File
+				RelativePath="TestPango\include\libcharset.h" />
+			<File
+				RelativePath="TestPango\include\localcharset.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-attributes.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-bidi-type.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-break.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-context.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-coverage.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-engine.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-enum-types.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-features.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-font.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-fontmap.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-fontset.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-glyph-item.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-glyph.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-gravity.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-item.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-language.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-layout.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-matrix.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-modules.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-ot.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-renderer.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-script.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-tabs.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-types.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango-utils.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pango.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pangocairo.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pangofc-decoder.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pangofc-font.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pangofc-fontmap.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pangoft2.h" />
+			<File
+				RelativePath="TestPango\include\pango-1.0\pango\pangowin32.h" />
+			<File
+				RelativePath="TestPango\port\include\stdint.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\t1tables.h" />
+			<File
+				RelativePath="TestPango\testpango.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Qt\4.8.6\bin\moc.exe;TestPango\testpango.h"
+						CommandLine="C:\Qt\4.8.6\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\Qt\4.8.6\include\QtCore&quot; -I&quot;c:\Qt\4.8.6\include\QtGui&quot; -I&quot;c:\Qt\4.8.6\include&quot; -I&quot;.&quot; -I&quot;c:\Qt\4.8.6\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\4.8.6\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 TestPango\testpango.h -o debug\moc_testpango.cpp"
+						Description="MOC TestPango\testpango.h"
+						Outputs="debug\moc_testpango.cpp"
+						Path="c:\Qt\4.8.6\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Qt\4.8.6\bin\moc.exe;TestPango\testpango.h"
+						CommandLine="C:\Qt\4.8.6\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\Qt\4.8.6\include\QtCore&quot; -I&quot;c:\Qt\4.8.6\include\QtGui&quot; -I&quot;c:\Qt\4.8.6\include&quot; -I&quot;.&quot; -I&quot;c:\Qt\4.8.6\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\4.8.6\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 TestPango\testpango.h -o release\moc_testpango.cpp"
+						Description="MOC TestPango\testpango.h"
+						Outputs="release\moc_testpango.cpp"
+						Path="c:\Qt\4.8.6\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ttnameid.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\tttables.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\tttags.h" />
+			<File
+				RelativePath="TestPango\include\freetype2\freetype\ttunpat.h" />
+			<File
+				RelativePath="TestPango\port\include\unistd.h" />
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="debug\moc_testpango.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_testpango.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\qrc_testpango.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\qrc_testpango.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="ui_testpango.h" />
+		</Filter>
+		<Filter
+			Name="Form Files"
+			Filter="ui"
+			UniqueIdentifier="{99349809-55BA-4b9d-BF79-8FDBB0286EB3}"
+			ParseFiles="false">
+			<File
+				RelativePath="TestPango\testpango.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Qt\4.8.6\bin\uic.exe;TestPango\testpango.ui"
+						CommandLine="C:\Qt\4.8.6\bin\uic.exe TestPango\testpango.ui -o ui_testpango.h"
+						Description="UIC TestPango\testpango.ui"
+						Outputs="ui_testpango.h"
+						Path="c:\Qt\4.8.6\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Qt\4.8.6\bin\uic.exe;TestPango\testpango.ui"
+						CommandLine="C:\Qt\4.8.6\bin\uic.exe TestPango\testpango.ui -o ui_testpango.h"
+						Description="UIC TestPango\testpango.ui"
+						Outputs="ui_testpango.h"
+						Path="c:\Qt\4.8.6\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="qrc;*"
+			UniqueIdentifier="{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}"
+			ParseFiles="false">
+			<File
+				RelativePath="TestPango\testpango.qrc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Qt\4.8.6\bin\rcc.exe;TestPango\testpango.qrc"
+						CommandLine="C:\Qt\4.8.6\bin\rcc.exe -name testpango TestPango\testpango.qrc -o debug\qrc_testpango.cpp"
+						Description="RCC TestPango\testpango.qrc"
+						Outputs="debug\qrc_testpango.cpp"
+						Path="c:\Qt\4.8.6\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Qt\4.8.6\bin\rcc.exe;TestPango\testpango.qrc"
+						CommandLine="C:\Qt\4.8.6\bin\rcc.exe -name testpango TestPango\testpango.qrc -o release\qrc_testpango.cpp"
+						Description="RCC TestPango\testpango.qrc"
+						Outputs="release\qrc_testpango.cpp"
+						Path="c:\Qt\4.8.6\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

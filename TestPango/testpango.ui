@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TestPangoClass</class>
+ <widget class="QMainWindow" name="TestPangoClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>905</width>
+    <height>595</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TestPango</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,0">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="5" column="0">
+          <widget class="QPushButton" name="pushButton_6">
+           <property name="text">
+            <string>ح‎</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QPushButton" name="pushButton_7">
+           <property name="text">
+            <string>خ‎</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0">
+          <widget class="QPushButton" name="pushButton_8">
+           <property name="text">
+            <string>د‎</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="0">
+          <widget class="QPushButton" name="pushButton_9">
+           <property name="text">
+            <string>ذ‎</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="text">
+            <string>ب‎</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="text">
+            <string>ث‎</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="text">
+            <string>ت‎</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QPushButton" name="pushButton">
+           <property name="text">
+            <string>أ‎</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="text">
+            <string>ج‎</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0">
+          <widget class="QPushButton" name="pushButton_10">
+           <property name="text">
+            <string>Clear</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelPixmap">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Text</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" colspan="5">
+        <widget class="QTextEdit" name="textEdit"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_18">
+         <property name="text">
+          <string>X</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2" colspan="2">
+        <widget class="QLineEdit" name="lineEditX">
+         <property name="inputMethodHints">
+          <set>Qt::ImhPreferNumbers</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLabel" name="label_17">
+         <property name="text">
+          <string>Y</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="5" colspan="2">
+        <widget class="QLineEdit" name="lineEditY">
+         <property name="inputMethodHints">
+          <set>Qt::ImhPreferNumbers</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QLabel" name="label_16">
+         <property name="text">
+          <string>Font Family</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3" colspan="3">
+        <widget class="QComboBox" name="comboBoxFontFamily"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Font Size</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3" colspan="2">
+        <widget class="QLineEdit" name="lineEditSize">
+         <property name="inputMethodHints">
+          <set>Qt::ImhPreferNumbers</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0" colspan="3">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Layout Width</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="3" colspan="2">
+        <widget class="QLineEdit" name="lineEditWidth">
+         <property name="inputMethodHints">
+          <set>Qt::ImhPreferNumbers</set>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="3">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Layouyt Height</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="3" colspan="2">
+        <widget class="QLineEdit" name="lineEditHeight">
+         <property name="inputMethodHints">
+          <set>Qt::ImhPreferNumbers</set>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="5" colspan="2">
+        <widget class="QCheckBox" name="checkBoxDrawLayout">
+         <property name="text">
+          <string>Draw Layout</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>Wrap</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="3" colspan="2">
+        <widget class="QComboBox" name="comboBoxWrap"/>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>Ellipse</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="3">
+        <widget class="QComboBox" name="comboBoxEllipse"/>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Indent</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="3" colspan="2">
+        <widget class="QLineEdit" name="lineEditIndent">
+         <property name="inputMethodHints">
+          <set>Qt::ImhPreferNumbers</set>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>Spacing</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="3" colspan="2">
+        <widget class="QLineEdit" name="lineEditSpacing">
+         <property name="inputMethodHints">
+          <set>Qt::ImhPreferNumbers</set>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QCheckBox" name="checkBoxJustify">
+         <property name="text">
+          <string>Justify</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="0" colspan="3">
+        <widget class="QCheckBox" name="checkBoxAutoDir">
+         <property name="text">
+          <string>Auto Dir</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="0">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>Alignment</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="3">
+        <widget class="QComboBox" name="comboBoxAlignment"/>
+       </item>
+       <item row="13" column="0" colspan="4">
+        <widget class="QCheckBox" name="checkBoxSingleParagraphMode">
+         <property name="text">
+          <string>Single Paragraph Mode</string>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="0">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>FR</string>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="1" colspan="3">
+        <widget class="QLineEdit" name="lineEditForeRed">
+         <property name="inputMethodHints">
+          <set>Qt::ImhPreferNumbers</set>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="4">
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>BR</string>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="5" colspan="2">
+        <widget class="QLineEdit" name="lineEditBackRed">
+         <property name="inputMethodHints">
+          <set>Qt::ImhPreferNumbers</set>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="0">
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>FG</string>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="1" colspan="3">
+        <widget class="QLineEdit" name="lineEditForeGreen">
+         <property name="inputMethodHints">
+          <set>Qt::ImhPreferNumbers</set>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="4">
+        <widget class="QLabel" name="label_14">
+         <property name="text">
+          <string>BG</string>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="5" colspan="2">
+        <widget class="QLineEdit" name="lineEditBackGreen">
+         <property name="inputMethodHints">
+          <set>Qt::ImhPreferNumbers</set>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="0">
+        <widget class="QLabel" name="label_12">
+         <property name="text">
+          <string>FB</string>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="1" colspan="3">
+        <widget class="QLineEdit" name="lineEditForeBlue">
+         <property name="inputMethodHints">
+          <set>Qt::ImhPreferNumbers</set>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="4">
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>BB</string>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="5" colspan="2">
+        <widget class="QLineEdit" name="lineEditBackBlue">
+         <property name="inputMethodHints">
+          <set>Qt::ImhPreferNumbers</set>
+         </property>
+        </widget>
+       </item>
+       <item row="17" column="0" colspan="5">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>238</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="17" column="6">
+        <widget class="QPushButton" name="button_apply">
+         <property name="text">
+          <string>Apply</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+   <zorder>groupBox</zorder>
+   <zorder>frame</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>905</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="testpango.qrc"/>
+ </resources>
+ <connections/>
+</ui>
